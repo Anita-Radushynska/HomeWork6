@@ -1,6 +1,8 @@
 package pl.chi.homework6;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,6 +13,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import static java.lang.String.valueOf;
+import static pl.chi.homework6.Data.Details;
 
 
 public class fragment_detail extends Fragment {
@@ -51,6 +56,8 @@ public class fragment_detail extends Fragment {
 
         tvTitle.setText(Data.List[position]);
         tvDetails.setText(Data.Details[position]);
+
+
     }
 
 }

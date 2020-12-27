@@ -20,15 +20,14 @@ public class Data {
 
 
     public final static String[] Details = {
-          "info 1",
-          "info 2",
-          "info 3",
-          "info 4",
-          "info 5",
-          "info 6",
-          "info 7",
-          "info 8",
-          "info 9",
-          "info 10"
+          "Color.RED",
+          "Color.GREEN",
+          "Color.WHITE",
+          "Color.YELLOW",
+          "Color.CYAN",
+          "Color.DKGRAY",
+          "Color.GRAY",
+          "Color.MAGENTA",
+          "Color.LTGRAY"
     };
 }
